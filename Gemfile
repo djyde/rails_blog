@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 gem 'rails', '4.2.1'
 gem 'pg'
@@ -9,7 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
-
+gem 'haml'
+gem 'simple_form'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
