@@ -3,3 +3,64 @@
   They will automatically be included in application.css.
 */
 
+$brown: #795548;
+$gray: #9E9E9E;
+
+.center{
+  text-align: center;
+}
+
+body{
+  font-family: "brandon-grotesque",sans-serif;
+}
+
+.post-list{
+
+  text-align: center;
+  padding: 32px;
+
+  .title a{
+    text-decoration: none;
+    color: $brown;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 4px;
+  }
+
+  .title a:hover{
+    text-decoration: underline;
+  }
+
+  .date{
+    color: $gray;
+    font-size: .8em;
+
+    p{
+      margin: 0;
+    }
+
+  }
+}
+
+.info{
+  background-color: $brown;
+  padding: 3em 5em;
+  color: #fff;
+  text-align: center;
+
+  img{
+    max-width: 128px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .name{
+    font-size: 2em;
+  }
+
+  .desc{
+    font-size: .9em;
+    letter-spacing: 4px;
+  }
+}

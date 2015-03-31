@@ -1,4 +1,12 @@
-- @posts.each do |post|
-  =link_to(post.title,post_path(post))
+.info
+  %img{src: "http://blogscdn.qiniudn.com/avatar.JPG"}
+  %p.name Randy
+  %p.desc A programmer who loves JavaScript and now is learning Ruby on Rails
+
+
+.post-list
+  - @posts.each do |post|
+    %p.title= link_to(post.title,post_path(post))
+    %p.date= post.created_at.strftime('%F')
 
 
