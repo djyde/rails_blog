@@ -9,6 +9,14 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
+.footer{
+  margin-top: 64px;
+  p{
+    font-size: .9em;
+    color: $brown;
+  }
+}
+
 .nav{
   background-color: #fff;
   padding: 24px;
