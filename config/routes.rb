@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   root 'posts#index'
   resources :posts
+  get 'archive', to: 'posts#archive'
+  get 'about', to: 'posts#about'
 end
