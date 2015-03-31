@@ -64,3 +64,14 @@ body{
     letter-spacing: 4px;
   }
 }
+
+.post{
+
+  width: 720px;
+  margin: 0 auto;
+
+  .title{
+    color: $brown;
+    text-align: center;
+  }
+}

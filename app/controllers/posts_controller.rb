@@ -7,7 +7,9 @@ class PostsController < ApplicationController
   end
 
   def show
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,autolink: true,table: true)
     @post = Post.find(params[:id])
+    @content = markdown.render(@post.content)
   end
 
   def new
