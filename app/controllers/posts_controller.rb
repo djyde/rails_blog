@@ -40,6 +40,14 @@ class PostsController < ApplicationController
     end
   end
 
+  def about
+    render 'about'
+  end
+
+  def archive
+    @posts = Post.all.order("created_at DESC")
+  end
+
 
   private
 
