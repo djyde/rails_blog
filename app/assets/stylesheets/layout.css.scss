@@ -49,3 +49,26 @@ body{
     }
   }
 }
+
+.about{
+  padding-top: 128px;
+  width: 80%;
+  margin: 0 auto;
+  .image img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  a{
+    color: $brown;
+    font-weight: bold;
+  }
+  .content{
+    padding: 28px;
+    p{
+      font-size: 1.4em;
+      letter-spacing: 2px;
+      line-height: 28px;
+    }
+  }
+}
