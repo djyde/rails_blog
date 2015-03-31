@@ -126,3 +126,39 @@ $red: #F44336;
     }
   }
 }
+
+.form-edit{
+  padding-top: 128px;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+
+  input[type="text"]{
+    width: 75%;
+    border: 1px solid $gray;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  input[type="text"]:focus{
+    border: 1px solid $brown;
+  }
+  input[type="submit"]{
+    border: 0;
+    margin: 12px;
+    outline: none;
+  }
+  textarea{
+    width: 75%;
+    margin-top: 32px;
+    border: 1px solid $gray;
+    height: 512px;
+    resize: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 12px;
+  }
+  textarea:focus{
+    border: 1px solid $brown;
+  }
+}
