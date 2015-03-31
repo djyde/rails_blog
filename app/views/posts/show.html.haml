@@ -1,7 +1,8 @@
 .post
   %h1.title= @post.title
   .date= @post.created_at.strftime('%F')
+  - if user_signed_in?
+    .operation
+      = link_to('edit',edit_post_path(@post),class: "btn btn-primary")
+      = link_to('destroy',post_path(@post),class: "btn btn-warnning",:method => :DELETE)
   .content= sanitize @content
-- if user_signed_in?
-  = link_to('Edit',edit_post_path(@post))
-  = link_to('Destroy',post_path(@post),:method => :DELETE)

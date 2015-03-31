@@ -1,0 +1,48 @@
+$brown: #795548;
+
+
+body{
+  font-family: "brandon-grotesque",sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav{
+  background-color: #fff;
+  padding: 24px;
+  border-bottom: 1px solid #E9E9E9;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  .logo{
+    display: inline-block;
+
+    a{
+      text-decoration: none;
+      color: $brown;
+    }
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+    li{
+      float: left;
+      a{
+        font-weight: bold;
+        color: $brown;
+        text-decoration: none;
+        margin-right: 24px;
+      }
+
+      a:hover{
+        border-bottom: 3px solid;
+      }
+    }
+  }
+}

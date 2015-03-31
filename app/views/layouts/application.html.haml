@@ -1,0 +1,22 @@
+!!! 5
+%html
+  %head
+    %title
+      - if @title
+        = @title
+      - else
+        Randy
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css"
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    .nav
+      .logo
+        = link_to("Randy Lu",root_path)
+      %ul
+        %li
+          %a{:href => "#"} ARCHIVE
+        %li
+          %a{:href => "#"} ABOUT ME
+    = yield

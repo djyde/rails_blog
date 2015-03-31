@@ -5,16 +5,28 @@
 
 $brown: #795548;
 $gray: #9E9E9E;
-
+$red: #F44336;
 .center{
   text-align: center;
 }
 
-body{
-  font-family: "brandon-grotesque",sans-serif;
-  -webkit-font-smoothing: antialiased;
-
+.btn{
+  text-decoration: none;
+  color: #fff;
+  font-size: .8em;
+  border-radius: 12px;
+  padding: 8px 12px;
+  display: inline-block;
 }
+
+.btn-primary{
+  background-color: $brown;
+}
+
+.btn-warnning{
+  background-color: $red;
+}
+
 
 .post-list{
 
@@ -72,6 +84,7 @@ body{
 
   width: 720px;
   margin: 0 auto;
+  margin-top: 180px;
 
   .title{
     color: $brown;
@@ -91,6 +104,12 @@ body{
     border-radius: 8px;
     padding: 12px;
     font-size: .8em;
+  }
+
+  .operation{
+    padding: 28px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .content {
