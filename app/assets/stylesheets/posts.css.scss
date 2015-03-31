@@ -10,6 +10,10 @@ $red: #F44336;
   text-align: center;
 }
 
+.container{
+  padding-top: 65px;
+}
+
 .btn{
   text-decoration: none;
   color: #fff;
@@ -84,7 +88,7 @@ $red: #F44336;
 
   width: 720px;
   margin: 0 auto;
-  margin-top: 180px;
+  margin-top: 128px;
 
   .title{
     color: $brown;
@@ -128,7 +132,7 @@ $red: #F44336;
 }
 
 .form-edit{
-  padding-top: 128px;
+  padding-top: 64px;
   width: 960px;
   margin: 0 auto;
   text-align: center;
