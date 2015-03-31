@@ -1,6 +1,6 @@
-
 .post
   %h1.title= @post.title
+  .date= @post.created_at.strftime('%F')
   .content= sanitize @content
 - if user_signed_in?
   = link_to('Edit',edit_post_path(@post))

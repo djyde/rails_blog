@@ -12,6 +12,8 @@ $gray: #9E9E9E;
 
 body{
   font-family: "brandon-grotesque",sans-serif;
+  -webkit-font-smoothing: antialiased;
+
 }
 
 .post-list{
@@ -43,8 +45,9 @@ body{
 }
 
 .info{
-  background-color: $brown;
-  padding: 3em 5em;
+  background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
+  background-size: 100%;
+  padding: 128px 256px;
   color: #fff;
   text-align: center;
 
@@ -73,5 +76,34 @@ body{
   .title{
     color: $brown;
     text-align: center;
+  }
+
+  .date{
+    font-size: .9em;
+    color: $gray;
+    text-align: center;
+  }
+
+  code{
+    background-color: #f7f7f7;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: .8em;
+  }
+
+  .content {
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.5;
+
+    p{
+      margin-top: 38px;
+      margin-bottom: 38px;
+    }
   }
 }
