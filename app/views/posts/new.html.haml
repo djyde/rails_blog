@@ -1,4 +1,6 @@
+
 .form-edit
+  = link_to("Signout",destroy_user_session_path,method: "DELETE")
   = simple_form_for @post do |f|
     = f.input :title, label: false
     = f.input :content, label: false
