@@ -1,0 +1,195 @@
+.center {
+  text-align: center; }
+
+body {
+  font-family: "brandon-grotesque",sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.footer {
+  margin-top: 64px; }
+  .footer p {
+    font-size: .9em;
+    color: #795548; }
+
+.nav {
+  background-color: #fff;
+  padding: 24px;
+  border-bottom: 1px solid #E9E9E9;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+  .nav .logo {
+    display: inline-block; }
+    .nav .logo a {
+      text-decoration: none;
+      color: #795548; }
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right; }
+    .nav ul li {
+      float: left; }
+      .nav ul li a {
+        font-weight: bold;
+        color: #795548;
+        text-decoration: none;
+        margin-right: 24px; }
+      .nav ul li a:hover {
+        border-bottom: 3px solid; }
+
+.about {
+  padding-top: 128px;
+  width: 80%;
+  margin: 0 auto; }
+  .about .image img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; }
+  .about a {
+    color: #795548;
+    font-weight: bold; }
+  .about .content {
+    padding: 28px; }
+    .about .content p {
+      font-size: 1.4em;
+      letter-spacing: 2px;
+      line-height: 28px; }
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.center {
+  text-align: center; }
+
+.container {
+  padding-top: 65px; }
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: .8em;
+  border-radius: 12px;
+  padding: 8px 12px;
+  display: inline-block; }
+
+.btn-primary {
+  background-color: #795548; }
+
+.btn-warnning {
+  background-color: #F44336; }
+
+.post-list {
+  text-align: center;
+  padding: 32px; }
+  .post-list .title a {
+    text-decoration: none;
+    color: #795548;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 4px; }
+  .post-list .title a:hover {
+    text-decoration: underline; }
+  .post-list .date {
+    color: #9E9E9E;
+    font-size: .8em;
+    margin-bottom: 32px; }
+    .post-list .date p {
+      margin: 0; }
+
+.info {
+  background-image: url("/assets/background.jpg");
+  background-size: 100%;
+  padding: 128px 256px;
+  color: #fff;
+  text-align: center; }
+  .info img {
+    max-width: 128px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  .info .name {
+    font-size: 2em; }
+  .info .desc {
+    font-size: .9em;
+    letter-spacing: 4px; }
+
+.post {
+  width: 720px;
+  margin: 0 auto;
+  margin-top: 128px; }
+  .post .title {
+    color: #795548;
+    text-align: center; }
+  .post .date {
+    font-size: .9em;
+    color: #9E9E9E;
+    text-align: center; }
+  .post code {
+    background-color: #f7f7f7;
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: .8em; }
+  .post .operation {
+    padding: 28px;
+    margin: 0 auto;
+    text-align: center; }
+  .post .content {
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.5; }
+    .post .content p {
+      margin-top: 38px;
+      margin-bottom: 38px; }
+
+.form-edit {
+  padding-top: 64px;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center; }
+  .form-edit input[type="text"] {
+    width: 75%;
+    border: 1px solid #9E9E9E;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px; }
+  .form-edit input[type="text"]:focus {
+    border: 1px solid #795548; }
+  .form-edit input[type="submit"] {
+    border: 0;
+    margin: 12px;
+    outline: none; }
+  .form-edit textarea {
+    width: 75%;
+    margin-top: 32px;
+    border: 1px solid #9E9E9E;
+    height: 512px;
+    resize: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 12px; }
+  .form-edit textarea:focus {
+    border: 1px solid #795548; }
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
