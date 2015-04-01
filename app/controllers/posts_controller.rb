@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-  before_action :require_login, :except => [:index,:show]
+  before_action :require_login, :except => [:index,:show,:about,:archive]
 
   def index
     @posts = Post.all.order("created_at DESC")
